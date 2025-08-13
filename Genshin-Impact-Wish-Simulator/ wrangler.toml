@@ -1,0 +1,11 @@
+name = "GenishImpact_Picker" # 你的 Workers 名称
+main = "./.svelte-kit/vercel-tmp/index.js" # 构建输出的入口文件
+compatibility_date = "2023-10-01" # 兼容的 Cloudflare 运行时日期
+account_id = "bd12a003c8fbaf314eb969a418d25c1b" # 在 Cloudflare 控制台查看
+workers_dev = true # 部署到 workers.dev 子域名（或配置自定义域名）
+
+# 环境变量（对应项目的 .env 配置）
+[vars]
+VITE_HOST = "https://diam.edu.cynara.my"
+VITE_APP_TITLE = "Genshin Impact Wish Simulator"
+# 其他必要环境变量...
