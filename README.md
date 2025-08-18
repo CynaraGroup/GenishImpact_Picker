@@ -17,15 +17,23 @@
 
 ## 使用方法
 1. 克隆或下载本项目到本地
-2. 打开index.html文件即可运行
-3. 在主界面选择所需模式：
+2. 安装依赖
+   ```bash
+   npm install
+   ```
+3. 运行项目
+   ```bash
+   npm run dev
+   ```
+
+4. 在主界面选择所需模式：
    - 抽卡模式：选择卡池类型，点击单抽/十连抽按钮
    - 点名模式：导入名单后点击随机点名按钮
 
 ## 注意事项
 - 本项目仅供娱乐和学习使用，与米哈游官方无关
-- 点名名单支持TXT和CSV格式导入
+- 点名名单支持TXT格式导入
 - 抽卡概率完全模拟游戏内设定
 
 ## 致谢
-基于 <mcurl name="genshin-impact-picker" url="https://github.com/cyanial/genshin-impact-picker"></mcurl> 项目开发
+基于 <mcurl name="genshin-impact-picker" url="https://github.com/cyanial/genshin-impact"></mcurl> 项目开发
